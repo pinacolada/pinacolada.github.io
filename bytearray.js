@@ -67,6 +67,7 @@ class ByteArray {
         }
         loader.responseType = "arraybuffer";
         loader.open("POST", url);
+        loader.send();
     }
     /**
      * Crée un fichier local enregistré par l'utilisateur
